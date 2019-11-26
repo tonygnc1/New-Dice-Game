@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Roll Those Dice</title>
-    <link rel='stylesheet' type = 'text/css' href = 'style.css'>
+    <link rel='stylesheet' type='text/css' href='style.css'>
 </head>
+
 <body>
-    <div class = 'output'></div>
-    <button type = 'button'>Rool That Dice</button>
+    <div class='gamearea'>
+        <div class='output'>
+            <div>Roll That Dice!</div></div>
+            <div class='viewer'>
+                <span class='namer'>Player 1</span>
+                <span id='player1'></span>
+            </div>
+            <div class='viewer'>
+                <span class='namer'>Player 2</span>
+                <span id='player2'></span>
+            </div>
+        </div>
+        <button type='button'>Roll That Dice!</button>
 
 
-    <script src = 'app.js'></script>
+        <script src='app.js'></script>
 </body>
+
 </html>
