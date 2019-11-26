@@ -1,18 +1,8 @@
-#player1, #computer {
-    display: inline-block;
-    width: 250px;
-    height: 190px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 25px;
-    text-align: center;
-    font-size: 7em;
-}
-
 .output {
     width: 450px;
     text-align: center;
     font-size: 2em;
+    margin-bottom: 25px;
 }
 
 button {
@@ -57,4 +47,5 @@ button {
     display: inline-block;
     font-family: cursive;
     font-size: 20px;
+    margin-bottom: 10px;
 }
