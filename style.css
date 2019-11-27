@@ -41,6 +41,7 @@ button {
     height: 150px;
     border: 1px solid black;
     padding: 5px;
+    margin-bottom: 10px;
 }
 
 .namer {
